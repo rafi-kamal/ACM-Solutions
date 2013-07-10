@@ -7,9 +7,10 @@ Check the second test case:
 4 2
 
 We denote the fighters as the nodes of a graph and the fights to be the edges of the graph.
-Let's assume 1 is Vampire. So 2 must be a Lykan, as there is a edge between 1 and 2. For similar
-argument, 3 and 4 will be Vampire. So there are 3 Vampires and 1 Lykan, the answer is 3. So,
-if a node is Vampire, every node adjacent to it will be Lykans, and vice versa.
+Let's assume 1 is Vampire. So 2 must be a Lykan, as there is an edge between 1 and 2 (a fight). And
+3 and 4 will be Vampires, as they have edges with 2. So there are 3 Vampires and 1 Lykan, 
+the answer is 3. In short, if a node is Vampire, every node adjacent to it will be Lykans,
+and vice versa.
 
 Look, here we don't care about if the fighter is a Vampire of Lykan, we only care the maximum 
 number of fighters of a certain kind. So if we assume 1 to be a Lykan, the result doesn't change,
