@@ -12,4 +12,4 @@ Every solution here has the following format:
 
 Please follow this format when you submit a new solution. 
 
-For any query mail me at *rafikamal93 AT gmail DOT com*. You can also find me on [Google+](https://plus.google.com/103564154123165796665) or add me on [LinekdIn](bd.linkedin.com/in/rafikamal).
+For any query mail me at *rafikamal93 AT gmail DOT com*. You can also find me on [Google+](https://plus.google.com/103564154123165796665) or add me on [LinekdIn](https://www.linkedin.com/in/rafikamal).
