@@ -5,7 +5,7 @@ This is a collection of various programming problem solutions with hints. You ar
 
 Every solution here has the following format:
 * Problem type / Used algorithms (Optional)
-* Breif description of your approach to solve the problem
+* Brief description of your approach to solve the problem
 * Code
 * Solver information
 * How to contribute

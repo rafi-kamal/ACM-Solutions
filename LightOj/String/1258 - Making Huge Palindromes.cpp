@@ -110,7 +110,7 @@ int main()
 /*
 Solution submitted by: Rafi Kamal, BUET 10
 
-If you want to contribute, please fork this repository or send your solution with a breif 
+If you want to contribute, please fork this repository or send your solution with a brief 
 description of your idea to rafikamal93 AT gmail DOT com
 
 */
