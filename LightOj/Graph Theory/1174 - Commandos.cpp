@@ -111,6 +111,7 @@ int main()
 
 /*
 Solution submitted by: Rafi Kamal, BUET 10
+Thanks to: Chowdhury Osman, NSU
 
 If you want to contribute, please fork this repository or send your solution to 
 rafikamal93 AT gmail DOT com
