@@ -14,7 +14,7 @@ P : anncbaaababaaa|||||
 Q : |||||aaababaaabcnna
 Ans:anncbaaababaaabcnna
 
-So all we need to do is search for the longes prefix of Q in P. You can do this by using KMP.
+So all we need to do is search for the longest prefix of Q in P. You can do this by using KMP.
 */
 
 #include <cstdio>
