@@ -2,18 +2,18 @@
 Algorithm: Kruskal
 
 Explanation: Here we need to apply kruskal algorithm directly.But the problem is that we need to handle strings as vertices.
-			 So using a map data structure to map a value for each vertex.Finally we need to check for every vertex 
-			 whether they are connected or not.
+	     So using a map data structure to map a value for each vertex.Finally we need to check for every vertex 
+	     whether they are connected or not.
 */
 #include<bits/stdc++.h>
 using namespace std;
 #define opt 	ios_base::sync_with_stdio(false);cin.tie(NULL);cout.tie(NULL)
 #define lli 	long long int
-#define mod		1000000007
+#define mod	1000000007
 #define inf     1000000000000000000
-#define MX1		100005
-#define MX2		10000004
-#define pi		acos(-1)
+#define MX1	100005
+#define MX2	10000004
+#define pi	acos(-1)
 #define pb      push_back
 #define vlli    vector<lli>
 #define plli    vector<pair<lli,lli> >
