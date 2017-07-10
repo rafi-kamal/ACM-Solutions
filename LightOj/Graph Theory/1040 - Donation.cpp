@@ -2,19 +2,19 @@
 Algorithm: Kruskal
 
 Explanation: Here we make a adjacency list from the adjacency matrix only for those vertices 
-			 which have non-zero value and are not self edges.
-			 Get the total sum of cables and remove the least amount of cable required to 
-			 connect all rooms which gives the maximum donation that can be made. 
+	     which have non-zero value and are not self edges.
+	     Get the total sum of cables and remove the least amount of cable required to 
+	     connect all rooms which gives the maximum donation that can be made. 
 */
 #include<bits/stdc++.h>
 using namespace std;
-#define opt ios_base::sync_with_stdio(false);cin.tie(NULL);cout.tie(NULL)
-#define lli long long int
-#define mod		1000000007
+#define opt 	ios_base::sync_with_stdio(false);cin.tie(NULL);cout.tie(NULL)
+#define lli 	long long int
+#define mod	1000000007
 #define inf     1000000000000000000
-#define MX1		100005
-#define MX2		10000004
-#define pi		acos(-1)
+#define MX1	100005
+#define MX2	10000004
+#define pi	acos(-1)
 #define pb      push_back
 #define vlli    vector<lli>
 #define plli    vector<pair<lli,lli> >
