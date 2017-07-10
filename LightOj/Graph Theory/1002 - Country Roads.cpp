@@ -105,7 +105,6 @@ int main()
 	scanf("%lld",&t);
 	while(t--)
 	{
-		printf("Case %lld:\n",tc++);
 		memset(visit,0,sizeof(visit));
 		memset(dist,0,sizeof(dist));
 		scanf("%lld %lld",&n,&m);
@@ -123,6 +122,7 @@ int main()
 		initialize();
 		kruskal(g);
 		bfs(s);
+		        printf("Case %lld:\n",tc++);
 		for(i=0;i<n;i++)
 		{
 			if(i==s)
@@ -137,7 +137,7 @@ int main()
 	return 0;
 }
 /*
-Solution submitted by: Anil Kumar Kasaragadda.
+Solution submitted by: Anil Kumar Kasaragadda,NIT Rourkela.
 If you want to contribute, please fork this repository or send your solution to 
 rafikamal93@gmail.com
 */
