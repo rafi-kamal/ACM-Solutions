@@ -8,8 +8,8 @@ Then in this MST we can use BFS to keep track of maximum edge to a vertex in eac
 */
 #include<bits/stdc++.h>
 using namespace std;
-#define opt ios_base::sync_with_stdio(false);cin.tie(NULL);cout.tie(NULL)
-#define lli long long int
+#define opt 	ios_base::sync_with_stdio(false);cin.tie(NULL);cout.tie(NULL)
+#define lli 	long long int
 #define mod	1000000007
 #define inf     1000000000000000000
 #define MX1	100005
@@ -21,8 +21,6 @@ using namespace std;
 #define mp      make_pair
 #define all(v)  v.begin(),v.end()
 #define test    int t;cin>>t;
-lli gcd(lli a, lli b){return b?gcd(b,a%b):a;}
-lli power(lli a,lli b){lli ans=1;while(b){if(b&1){ans=(ans*a)%mod;}a=(a*a)%mod;b>>=1;}return ans;}
 plli tr[505];
 bool visit[505];
 lli dist[505];
