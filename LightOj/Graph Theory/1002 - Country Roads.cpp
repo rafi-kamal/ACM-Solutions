@@ -10,11 +10,11 @@ Then in this MST we can use BFS to keep track of maximum edge to a vertex in eac
 using namespace std;
 #define opt ios_base::sync_with_stdio(false);cin.tie(NULL);cout.tie(NULL)
 #define lli long long int
-#define mod		1000000007
+#define mod	1000000007
 #define inf     1000000000000000000
-#define MX1		100005
-#define MX2		10000004
-#define pi		acos(-1)
+#define MX1	100005
+#define MX2	10000004
+#define pi	acos(-1)
 #define pb      push_back
 #define vlli    vector<lli>
 #define plli    vector<pair<lli,lli> >
@@ -31,7 +31,9 @@ lli n,m;
 void initialize()
 {
 	for(lli i=0;i<505;i++)
-	id[i]=i;
+	{
+		id[i]=i;
+	}
 }
 lli root(lli x)
 {
@@ -46,8 +48,7 @@ void union1(lli x,lli y)
 {
 	lli p=root(x);
 	lli q=root(y);
-	id[p]=id[q];
-	
+	id[p]=id[q];	
 }
 void kruskal(pair<lli,pair<lli,lli> >g[])
 {
