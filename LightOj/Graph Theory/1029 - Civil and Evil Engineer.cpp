@@ -1,20 +1,18 @@
 /*
 Algorithm: Kruskal 
 
-Explanation: In Kruskal's Algorithm if we sort the edges in ascending order we get minimum spanning tree,
-			 if sorted in descending order we get maximum spanning tree.
-			 If sort by ascending order we get best possible connection 
-			 otherwise we get worst possible connection.  
+Explanation: In Kruskal's Algorithm if we sort the edges in ascending order we get minimum spanning tree 
+             which best connection,if sorted in descending order we get maximum spanning tree which is worst connection.
 */
 #include<bits/stdc++.h>
 using namespace std;
 #define opt 	ios_base::sync_with_stdio(false);cin.tie(NULL);cout.tie(NULL)
 #define lli 	long long int
-#define mod		1000000007
+#define mod	1000000007
 #define inf     1000000000000000000
-#define MX1		100005
-#define MX2		10000004
-#define pi		acos(-1)
+#define MX1	100005
+#define MX2	10000004
+#define pi	acos(-1)
 #define pb      push_back
 #define vlli    vector<lli>
 #define plli    vector<pair<lli,lli> >
