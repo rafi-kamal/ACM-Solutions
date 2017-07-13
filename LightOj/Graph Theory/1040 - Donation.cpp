@@ -70,26 +70,26 @@ int main()
 	scanf("%lld",&t);
 	while(t--)
 	{
-		scanf("%lld",&n);
-		vector<pair<lli,pair<lli,lli> > >g;
+	    scanf("%lld",&n);
+	    vector<pair<lli,pair<lli,lli> > >g;
 	    lli i,j,k,l=0;
 	    for(i=0;i<n;i++)
 	    {
 	    	for(j=0;j<n;j++)
 	    	{
-	    		scanf("%lld",&k);
-	    		l+=k;
-	    		if(k!=0 && i!=j)
-	    		g.pb(mp(k,mp(i,j)));
-			}
+	    	   scanf("%lld",&k);
+	           l+=k;
+	           if(k!=0 && i!=j)
+	    	   g.pb(mp(k,mp(i,j)));
 		}
-		sort(all(g));
-		initialize();
-		k=kruskal(g);
-		if(k!=-1)
-		printf("Case %lld: %lld\n",tc++,l-k);
-		else
-		printf("Case %lld: -1\n",tc++);
+	    }
+	    sort(all(g));
+	    initialize();
+	    k=kruskal(g);
+	    if(k!=-1)
+	    printf("Case %lld: %lld\n",tc++,l-k);
+	    else
+	    printf("Case %lld: -1\n",tc++);
 	}
 	return 0;
 }
