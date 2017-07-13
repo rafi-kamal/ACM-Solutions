@@ -1,8 +1,8 @@
 /*
 Algorithm: Kruskal
 
-Explanation: Here we need to apply kruskal algorithm directly.But the problem is that we need to handle strings as vertices.
-	     So using a map data structure to map a value for each vertex.Finally we need to check for every vertex 
+Explanation: Here we need to apply kruskal algorithm directly. But the problem is that we need to handle strings as vertices.
+	     So using a map data structure to map a value for each vertex. Finally we need to check for every vertex 
 	     whether they are connected or not.
 */
 #include<bits/stdc++.h>
@@ -90,7 +90,7 @@ int main()
 		 	m[s1]=m.size();
 		}
 	 	g.pb(mp(j,mp(m[s],m[s1])));
-     }
+         }
 	 initialize();
 	 sort(all(g));
 	 k=minimum(g,m.size());
