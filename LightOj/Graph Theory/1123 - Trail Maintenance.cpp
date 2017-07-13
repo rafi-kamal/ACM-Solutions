@@ -1,10 +1,10 @@
 /*
 Algorithm: Kruskal + DSU
 
-Explanation: Here we have to first check for edge,will it make a single connected component or not.
+Explanation: Here we have to first check for edge , will it make a single connected component or not.
 	     Once it is connected component then for each edge apply Kruskal Algorithm.
 	     The useful optimization is we have to take only the MST as a graph each time.
-             (If not understood,there is a clear cut expanation in forum.Have a look at it.) 
+             (If not understood , there is a clear cut expanation in forum. Have a look at it.) 
 */
 #include<bits/stdc++.h>
 using namespace std;
