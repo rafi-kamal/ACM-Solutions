@@ -237,8 +237,8 @@ int main()
 		int len1 = strlen(str);
 		int len2 = strlen(substr);
 		
-		if(len1 >= len2)
-		{
+		//if(len1 >= len2)
+		//{
 			suffixArray(str);
 			memset(q, -1, sizeof q);
 			kmp(str, substr);
@@ -263,7 +263,7 @@ int main()
 				k = min(len1, q[B[i]]+len2-1) - B[i] - LCP[i];
 				if(k > 0) sum += k;
 			}
-		}
+		//}
 		
 		printf("Case %d: %d\n", t, sum);
 		
