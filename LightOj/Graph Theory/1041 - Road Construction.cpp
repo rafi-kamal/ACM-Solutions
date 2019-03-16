@@ -43,7 +43,7 @@ void union1(lli x,lli y)
 }
 lli minimum(vector<pair<lli,pair<lli,lli> > >v,lli n)
 {
-	lli i,j,k1,k,l=0;
+	lli i,j,k1,k,l=0,line=0;
 	for(i=0;i<v.size();i++)
 	{
 		j=v[i].second.first;
@@ -53,15 +53,17 @@ lli minimum(vector<pair<lli,pair<lli,lli> > >v,lli n)
 		{
 			l+=k;
 			union1(j,k1);
+			line++;
 		}
 	}
-	k=root(1);
-	for(lli i=2;i<=n;i++)
-	{
-		if(root(i)!=k)
+	//new check
+	if(line==n-1)
+		return l;
+	else
 		return -1;
-	}
-	return l;
+
+	  
+ 
 }
 int main()
 {
